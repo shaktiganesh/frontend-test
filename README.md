@@ -51,4 +51,7 @@ The TestNG report will be present target folder. reporter-output present inside 
 
 ## Tests:
 
+There is a single test verifyFlightAndBus which has two assertions
+1)Verify bus option is displayed in the results page
+2)Verify flight options is displayed in the results page
 
