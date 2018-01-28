@@ -32,7 +32,7 @@ public class SearchResultsTest {
 
 	@Parameters(value = { "fromPlace", "toPlace" })
 	@Test
-	public void sortByPrice(String fromPlace, String toPlace) throws InterruptedException {
+	public void verifyFlightAndBus(String fromPlace, String toPlace) throws InterruptedException {
 		homePage = new HomePage(driver);
 		homePage.travelSearch(fromPlace, toPlace);
 		resultsPage = new ResultsPage(driver);
